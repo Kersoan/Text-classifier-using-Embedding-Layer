@@ -28,8 +28,8 @@ Train the model for 30 epochs using the prepared training data and validate its 
 Evaluate the model's accuracy and loss, and plot the results to track performance over time.
 
 ## PROGRAM
-### Name:MOHAMED ASEEM P
-### Register Number:212221230063
+### Name: KERSOAN P
+### Register Number: 212221230050
 ```
 import tensorflow as tf
 import numpy as np
@@ -82,7 +82,7 @@ def train_val_datasets(data):
 
 # Create the datasets
 train_dataset, validation_dataset = train_val_datasets(data)
-print('Name:MOHAMED AASEEM P     Register Number: 212221230063')
+print('Name: KERSOAN P     Register Number: 212221230050')
 print(f"There are {train_dataset.cardinality()} sentence-label pairs for training.\n")
 print(f"There are {validation_dataset.cardinality()} sentence-label pairs for validation.\n")
 
